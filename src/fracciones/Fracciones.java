@@ -20,30 +20,20 @@ public class Fracciones {
 		d2=leer.nextInt();
 	}
 	
-	public void escribirFraccion() {
+	void escribirFraccion() {
 		System.out.println("El resultado es: = " + numerador + "/" + denominador);
 	}
 	
-	public void sumarFracciones() {
+	void sumarFracciones() {
 		numerador = n1*d2 + d1*n2;
 		denominador = d1 * d2;
 	}
 	
-	public void multiplicacionFracciones() {
+	void multiplicacionFracciones() {
 		numerador = n1*n2;
 		denominador = d1*d2;
 	}
-	
-	public void restarFracciones() {
-		numerador = n1*d2 - d1*n2;
-		denominador = d1 * d2;
-	}
-	
-	public void dividirFracciones() {
-		numerador = n1*d2;
-		denominador = d1*n2;
-	}
-	
+		
 	void menu() {
 		
 		int opcion = 0;
@@ -73,18 +63,15 @@ public class Fracciones {
 					break;
 				}
 				case 2: {
-					restarFracciones();
-					escribirFraccion();
+
 					break;
 				}
 				case 3: {
-					multiplicacionFracciones();
-					escribirFraccion();
+
 					break;
 				}
 				case 4: {
-					dividirFracciones();
-					escribirFraccion();
+
 					break;
 				}
 				case 5: {
