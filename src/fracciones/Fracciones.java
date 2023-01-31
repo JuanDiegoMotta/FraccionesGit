@@ -29,6 +29,10 @@ public class Fracciones {
 		denominador = d1 * d2;
 	}
 	
+	void restarFracciones() {
+		numerador = n1*d2 + d1*n2;
+		denominador = d1 * d2;
+	}
 
 
 	
@@ -61,7 +65,8 @@ public class Fracciones {
 					break;
 				}
 				case 2: {
-
+					restarFracciones();
+					escribirFraccion();
 					break;
 				}
 				case 3: {
