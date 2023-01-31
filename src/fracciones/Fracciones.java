@@ -33,6 +33,11 @@ public class Fracciones {
 		numerador = n1*n2;
 		denominador = d1*d2;
 	}
+	
+	void divisiónFracciones() {
+		numerador = n1*d2;
+		denominador = d1*n2;
+	}
 		
 	void menu() {
 		
@@ -67,11 +72,14 @@ public class Fracciones {
 					break;
 				}
 				case 3: {
-
+					multiplicacionFracciones();
+					escribirFraccion();
 					break;
 				}
 				case 4: {
-
+					divisiónFracciones();
+					escribirFraccion();
+					
 					break;
 				}
 				case 5: {
