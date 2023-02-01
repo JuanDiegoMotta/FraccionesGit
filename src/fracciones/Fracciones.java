@@ -63,27 +63,27 @@ public class Fracciones {
 			
 			switch (opcion) {
 				case 1: {
-					sumarFracciones();
+					sumarFracciones(); //Este programa se utiliza para sumar FRACCIONES, es un metodo
 					escribirFraccion();
 					break;
 				}
 				case 2: {
-
+										//Este programa se utiliza para restar FRACCIONES, es un metodo
 					break;
 				}
 				case 3: {
-					multiplicacionFracciones();
+					multiplicacionFracciones(); //Este programa se utiliza para multiplicar FRACCIONES, es un metodo
 					escribirFraccion();
 					break;
 				}
 				case 4: {
-					divisiónFracciones();
+					divisiónFracciones(); //Este programa se utiliza para dividir FRACCIONES, es un metodo
 					escribirFraccion();
 					
 					break;
 				}
 				case 5: {
-					System.out.println("Saliendo del programa");
+					System.out.println("Saliendo del programa Calculadora");
 					break;
 				}
 				default:{
